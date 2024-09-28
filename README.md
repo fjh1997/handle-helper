@@ -1,5 +1,5 @@
 # handle-helper
-成语游戏解谜工具
+“汉兜”成语游戏解谜工具
 ## 运行方式
 ```
 pnpm install
