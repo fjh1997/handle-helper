@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"start": "vite-node handle-helper.ts"
+	},
+	"dependencies": {
+		"pinyin": "2.11.2",
+		"vite-node": "^2.1.1"
+	}
+}
