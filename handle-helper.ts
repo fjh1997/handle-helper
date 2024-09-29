@@ -76,6 +76,13 @@ async function input(data){
             console.log(result)
             input(result)
             break;
+        case 'i':
+          console.log('include!');
+          filter=answer.toLowerCase().split(" ")[1];
+          result = data.filter((chengyu) => judge(chengyu.pinyin[0],filter)||judge(chengyu.pinyin[1],filter)||judge(chengyu.pinyin[2],filter)||judge(chengyu.pinyin[3],filter) );
+          console.log(result)
+          input(result)
+          break;
         default:
             console.log('Invalid command!');
             input(data)
